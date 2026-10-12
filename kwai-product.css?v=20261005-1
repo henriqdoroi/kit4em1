@@ -1,0 +1,388 @@
+body.kwai-live {
+    --c-brand: #ff4e00;
+    --c-brand2: #ff4e00;
+    --c-brand3: #ff7926;
+    --c-brand-light: #ff4e00;
+    --c-tint: #fff1eb;
+    background: #f2f2f2;
+    color: #161616;
+    padding-bottom: 90px;
+    font-family: Arial,Helvetica,sans-serif
+}
+
+body.kwai-live .top-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 500px;
+    background: linear-gradient(#0005,transparent);
+    color: white;
+    border: 0;
+    transition: background .2s,color .2s
+}
+
+body.kwai-live.kw-scrolled .top-bar {
+    background: #fff;
+    color: #111;
+    box-shadow: 0 1px 0 #eee
+}
+
+body.kwai-live .tb-search {
+    background: #ffffff30;
+    color: inherit
+}
+
+body.kwai-live.kw-scrolled .tb-search {
+    background: #f2f2f2;
+    color: #888
+}
+
+body.kwai-live .tabs {
+    display: none!important
+}
+
+body.kwai-live .image-slider-container {
+    margin: 0
+}
+
+body.kwai-live .product-image {
+    aspect-ratio: 1;
+    object-fit: contain
+}
+
+body.kwai-live .image-counter {
+    bottom: 44px;
+    font-size: 13px
+}
+
+body.kwai-live .kw-gallery-ribbon {
+    padding: 11px 18px;
+    background: #58aba3;
+    color: white;
+    font-size: 15px;
+    font-weight: 600
+}
+
+body.kwai-live .product-info {
+    padding: 0 20px 18px;
+    margin-bottom: 9px
+}
+
+body.kwai-live .price-section {
+    margin: 0 -20px 0;
+    background: linear-gradient(100deg,#ff3400,#ff7926);
+    padding: 0
+}
+
+body.kwai-live .price-row {
+    gap: 0;
+    align-items: stretch
+}
+
+body.kwai-live .price-info {
+    padding: 12px 15px;
+    min-width: 0
+}
+
+body.kwai-live .price-main {
+    font-size: 23px;
+    gap: 4px;
+    flex-wrap: wrap
+}
+
+body.kwai-live .price-off {
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0
+}
+
+body.kwai-live .price-savings {
+    font-size: 12px;
+    margin-top: 5px
+}
+
+body.kwai-live .price-de {
+    display: none
+}
+
+body.kwai-live .flash-deal-container {
+    border-left: 1px dashed #ffffff70;
+    padding: 14px 13px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    color: white;
+    font-size: 12px
+}
+
+body.kwai-live .extra-discounts-container {
+    display: none
+}
+
+body.kwai-live #varRow {
+    padding: 15px 0;
+    gap: 8px;
+    border: 0
+}
+
+body.kwai-live #varRow>.ship-ico {
+    display: none
+}
+
+body.kwai-live .var-thumbs img {
+    width: 46px;
+    height: 46px;
+    border-radius: 4px
+}
+
+body.kwai-live .var-count {
+    margin-left: auto;
+    color: #999;
+    font-size: 13px
+}
+
+body.kwai-live .kw-offer {
+    display: flex;
+    margin: 10px 0 18px;
+    background: #fff5f3;
+    border: 1px solid #f7e3df;
+    border-radius: 10px;
+    align-items: center;
+    min-height: 105px
+}
+
+body.kwai-live .kw-offer[hidden] {
+    display: none
+}
+
+body.kwai-live .kw-offer>div {
+    flex: 1;
+    padding: 18px
+}
+
+body.kwai-live .kw-offer strong {
+    font-size: 23px;
+    font-weight: 500;
+    color: #ff4e00
+}
+
+body.kwai-live .kw-offer p {
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 8px
+}
+
+body.kwai-live .kw-offer button {
+    background: #ff4e00;
+    color: white;
+    padding: 9px 14px;
+    border-radius: 3px;
+    margin: 15px
+}
+
+body.kwai-live .badge-loja-estrela {
+    display: none
+}
+
+body.kwai-live .product-title {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.4
+}
+
+body.kwai-live .rating-sales-container {
+    font-size: 12px;
+    color: #999;
+    margin: 10px 0 0
+}
+
+body.kwai-live .kw-shipping {
+    background: linear-gradient(120deg,#f6fcf9,#e7faf7);
+    padding: 0 20px;
+    margin: 0
+}
+
+body.kwai-live .ship-row {
+    padding: 13px 0;
+    color: #58a8a1
+}
+
+body.kwai-live .ship-ico,body.kwai-live .ship-eta-line {
+    color: #58a8a1
+}
+
+body.kwai-live .ship-eta-line {
+    font-size: 13px
+}
+
+body.kwai-live .prot-title {
+    font-size: 15px;
+    font-weight: 500
+}
+
+body.kwai-live .prot-grid {
+    font-size: 11px
+}
+
+body.kwai-live #varSep {
+    display: none
+}
+
+body.kwai-live .recommendations-content,body.kwai-live .reviews-section,body.kwai-live .description-content,body.kwai-live .loja-bloco {
+    padding: 20px;
+    background: white;
+    margin-bottom: 9px;
+    border: 0
+}
+
+body.kwai-live .recommendations-grid {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    scroll-snap-type: x proximity
+}
+
+body.kwai-live .recommendations-grid>* {
+    flex: 0 0 31%;
+    min-width: 115px;
+    scroll-snap-align: start
+}
+
+body.kwai-live .section-title,body.kwai-live .ml-head h3 {
+    font-size: 18px;
+    font-weight: 500
+}
+
+body.kwai-live .seller-avatar {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%
+}
+
+body.kwai-live .seller-name {
+    font-size: 17px;
+    font-weight: 500
+}
+
+body.kwai-live .visit-btn {
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 3px;
+    padding: 6px 17px
+}
+
+body.kwai-live .ml-promo {
+    display: none
+}
+
+body.kwai-live .ml-item {
+    min-width: 125px;
+    width: 31%;
+    border: 0
+}
+
+body.kwai-live .ml-img {
+    border-radius: 8px
+}
+
+body.kwai-live .ml-preco {
+    color: #ff4e00
+}
+
+body.kwai-live .description-content p {
+    font-size: 15px;
+    color: #171717
+}
+
+body.kwai-live .footer {
+    padding: 12px 16px calc(14px + env(safe-area-inset-bottom));
+    gap: 0;
+    box-shadow: 0 -8px 24px #ffffffc0
+}
+
+body.kwai-live .footer-nav-btn {
+    min-width: 48px;
+    padding: 0 4px;
+    font-size: 12px;
+    gap: 4px
+}
+
+body.kwai-live .footer-cart-btn {
+    flex: 0 0 50px;
+    height: 56px;
+    background: #fbe9e1;
+    color: #ff4e00;
+    border-radius: 7px 0 0 7px;
+    margin-left: 10px;
+    padding: 10px
+}
+
+body.kwai-live .footer-cart-btn svg {
+    width: 28px;
+    height: 28px;
+    stroke: currentColor
+}
+
+body.kwai-live .buy-now-btn {
+    height: 56px;
+    border-radius: 0 7px 7px 0;
+    background: #ff4e00;
+    box-shadow: none
+}
+
+body.kwai-live .bn-title {
+    font-size: clamp(14px,4vw,18px)
+}
+
+@media(max-width: 360px) {
+    body.kwai-live .price-main {
+        font-size:20px
+    }
+
+    body.kwai-live .flash-deal-container {
+        font-size: 10px;
+        padding: 10px
+    }
+
+    body.kwai-live .kw-offer>div {
+        padding: 12px
+    }
+
+    body.kwai-live .kw-offer button {
+        margin: 10px;
+        padding: 8px
+    }
+
+    body.kwai-live .footer {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
+    body.kwai-live .footer-nav-btn {
+        min-width: 42px
+    }
+
+    body.kwai-live .footer-cart-btn {
+        flex-basis: 42px;
+        margin-left: 6px
+    }
+}
+
+@media(prefers-reduced-motion:reduce) {
+    body.kwai-live * {
+        transition: none!important
+    }
+}
+
+body.kwai-live .footer-cart-btn svg {
+    display: block!important
+}
+
+body.kwai-live .cpf-modal:not(.active) {
+    visibility: hidden
+}
+
+body.kwai-live .cpf-modal.active {
+    visibility: visible
+}
